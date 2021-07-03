@@ -2,7 +2,7 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE HTML>
 <!--
-	Spectral by HTML5 UP
+	Spectral by jsp5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -21,17 +21,18 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.jsp">Spectral</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
+											<li><a href="index.jsp">Home</a></li>
+											<li><a href="#">테스트 시작</a></li>
+											<li><a href="generic.jsp">Generic</a></li>
+											<li><a href="elements.jsp">Elements</a></li>
+											<li><a href="login.jsp">Sign Up</a></li>
 											<li><a href="#">Log In</a></li>
 										</ul>
 									</div>
@@ -383,6 +384,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<!-- 로그인 -->
+							
+	
 
 	</body>
 </html>
