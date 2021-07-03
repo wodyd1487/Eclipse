@@ -29,6 +29,9 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.jsp">Home</a></li>
+											<li><a href="generic.jsp">Generic</a></li>
+											<li><a href="elements.jsp">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
 											<li><a href="#">테스트 시작</a></li>
 											<li><a href="generic.jsp">Generic</a></li>
 											<li><a href="elements.jsp">Elements</a></li>
@@ -54,11 +57,11 @@
 									<h4>Text</h4>
 									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									This is and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
 									<hr />
 									<header>
 										<h4>Heading with a Subtitle</h4>
-										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										<p>Lorem ipsum dolsor sit amet nullam id egestas urna aliquam</p>
 									</header>
 									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 									<header>
