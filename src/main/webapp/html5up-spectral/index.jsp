@@ -21,18 +21,18 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.jsp">Spectral</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="index.jsp">Home</a></li>
+											<li><a href="generic.jsp">Generic</a></li>
+											<li><a href="elements.jsp">Elements</a></li>
+											<li><a href="#Join">Sign Up</a></li>
+											<li><a href="#loginmenu">Login</a></li>
 										</ul>
 									</div>
 								</li>
@@ -162,6 +162,29 @@
 					</footer>
 
 			</div>
+			
+			   <!-- 로그인 -->
+                     
+               <nav id="loginmenu">   
+                  <ul class="links">
+                     <li><h5>로그인</h5></li>
+                        <form>
+                           <li><input type="text"  placeholder="Email을 입력하세요"></li>
+                           <li><input type="password"  placeholder="PW를 입력하세요"></li>
+                           <li><input type="submit" value="LogIn" class="button fit"></li>
+                        </form>
+                  </ul>
+                  <ul class="actions vertical">
+                     <li><h5>회원가입</h5></li>
+                        <form action="JoinCon" method ="post">
+                           <li><input type="text" name="email" placeholder="Email을 입력하세요"></li>
+                           <li><input type="password" name="pw" placeholder="PW를 입력하세요"></li>
+                           <li><input type="text"  name="tel" placeholder="전화번호를 입력하세요"></li>
+                           <li><input type="text"  name="address" placeholder="집주소를 입력하세요"></li>
+                           <li><input type="submit" value="JoinUs" class="button fit"></li>
+                        </form>
+                  </ul>
+               </nav>   
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
