@@ -2,7 +2,7 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE HTML>
 <!--
-	Spectral by HTML5 UP
+	Spectral by jsp5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -32,6 +32,10 @@
 											<li><a href="generic.jsp">Generic</a></li>
 											<li><a href="elements.jsp">Elements</a></li>
 											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">테스트 시작</a></li>
+											<li><a href="generic.jsp">Generic</a></li>
+											<li><a href="elements.jsp">Elements</a></li>
+											<li><a href="login.jsp">Sign Up</a></li>
 											<li><a href="#">Log In</a></li>
 										</ul>
 									</div>
@@ -53,7 +57,7 @@
 									<h4>Text</h4>
 									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									This is and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
 									<hr />
 									<header>
 										<h4>Heading with a Subtitle</h4>
@@ -383,6 +387,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<!-- 로그인 -->
+							
+	
 
 	</body>
 </html>
