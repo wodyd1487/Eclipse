@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+	pageEncoding="EUC-KR"%>
 <!DOCTYPE HTML>
 <!--
 	Spectral by HTML5 UP
@@ -7,88 +7,116 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+<title>Generic - Spectral by HTML5 UP</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript>
+	<link rel="stylesheet" href="assets/css/noscript.css" />
+</noscript>
+</head>
+<style>
+h2{
+font-size : xx-large;
+}
+p{
+font-size: x-large;
+}
+header{
+background-image: url('jy.jpg');
+}
+</style>
+<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.jsp">Spectral</a></h1>
-						<nav id="nav">
+		<!-- Header -->
+		<header id="header" >
+			<h1>
+				<a href="index.html">Spectral</a>
+			</h1>
+			<nav id="nav">
+				<ul>
+					<li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
 							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.jsp">Home</a></li>
-											<li><a href="generic.jsp">Generic</a></li>
-											<li><a href="elements.jsp">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Log In</a></li>
 							</ul>
-						</nav>
-					</header>
+						</div></li>
+				</ul>
+			</nav>
+		</header>
 
-				<!-- Main -->
-					<article id="main">
-						<header>
-							<h2>Generic Page</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
-						</header>
-						<section class="wrapper style5">
-							<div class="inner">
+		<!-- Main -->
+		<article id="main">
+			<header>
+				<h2>무료로 부족한 영양소를 채워보세요</h2>
+				<p>여러 문항의 설문을 통해 몸의 부족한 영양소를 추천해드립니다.</p>
+			</header>
+			<section class="wrapper style5">
+				<div class="inner">
 
-								<h3>Lorem ipsum dolor</h3>
-								<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+					<h3>헬스 플러스</h3>
+					<h2>건강에 건강을 더하다</h2>
+					<p>헬스플러스는 여러분의 삶이 건강에 더 가까워지는 방법을 연구하고 제안합니다. 먼저 부족한 영양소를 채우는
+						것에 집중하며, 건강 한 스푼 넣은 영양제 추천 서비스를 운영하고 있습니다.</p>
 
-								<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+					<hr />
 
-								<hr />
+					<h2>브랜드 스토리</h2>
+					<p> 불편해서 시작했습니다. 자신에게 필요한 영양제를 섭취하고싶지만 무엇을 먼저 먹어야 할지
+						모르겠나요? 챙겨먹기는 세상 귀찮은데 그렇다고 안챙겨먹기는 불안해지고요. 필요한 영양제를 따로 번거롭게 구매하다
+						나섰습니다. 한번에 해결할 수 있는 방법을 직접 만들기 위해서요. 정직하게 만들고, 친절하게 설명할게요. 무언가를 더
+						추가하기 보다, 필요한 것만 남겼습니다.</p>
+						
+						<p>  뭐든지 과하게 먹으면 탈이 나듯이, 영양제도 마찬가지에요. 자신에게 필요한
+						영양소 두 가지만을 우선적으로 선별하여 추천 리스트를 만들고 있습니다. 또한, 가장 함량이 높고 가격이 합리적인 제품만
+						소개해드릴게요.</p>
+						
+						<p> 멈추지 않고, 계속 발전하겠습니다. 의미있는 도전을 하는 곳, 앞으로가 더 기대되는 곳이 되고 싶어요.
+						피로한 당신의 일상에 플러스가 되어주는 든든한 친구가 있다면 좋겠죠? 헬스플러스가 그 자리 채워갈게요 :)</p>
 
-								<h4>Feugiat aliquam</h4>
-								<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
+				</div>
+			</section>
+		</article>
 
-								<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span
+						class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span
+						class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span
+						class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-dribbble"><span
+						class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"><span
+						class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
 
-							</div>
-						</section>
-					</article>
+	</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
