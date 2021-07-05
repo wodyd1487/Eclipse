@@ -44,7 +44,7 @@ p {
 								<li><a href="index.html">Home</a></li>
 								<li><a href="generic.html">Company</a></li>
 								<li><a href="elements.html">Q&A</a></li>
-								<li><a href="#">Sign Up!</a></li> 
+								<li><a href="#">Sign Up</a></li> 
 								<li><a href="#">Log In</a></li>
 							</ul>
 						</div></li>
