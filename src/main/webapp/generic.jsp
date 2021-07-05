@@ -36,17 +36,17 @@ background-image: url('jy.jpg');
 		<!-- Header -->
 		<header id="header" >
 			<h1>
-				<a href="index.html">Spectral</a>
+				<a href="index.jsp">HEALTH PLUS</a>
 			</h1>
 			<nav id="nav">
 				<ul>
 					<li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
 						<div id="menu">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="index.jsp">Home</a></li>
+								<li><a href="generic.jsp">Company</a></li>
+								<li><a href="elements.jsp">Q&A</a></li>
+								<li><a href="#">Sign Up</a></li> 
 								<li><a href="#">Log In</a></li>
 							</ul>
 						</div></li>
