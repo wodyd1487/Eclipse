@@ -16,7 +16,7 @@
  	<body>
         <div class="wrap">
             <div class="form-wrap">
-            	<h1>환영합니다!</h1>
+            	<h1 align='center'>환영합니다!</h1>
             	<button class="submit" onclick='location.href="index.jsp"'>시작하기</button>
             </div>
          </div>
