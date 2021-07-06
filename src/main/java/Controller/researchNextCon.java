@@ -22,10 +22,13 @@ public class researchNextCon extends HttpServlet {
 		 mid_preg = request.getParameter("mid_preg");
 		 normal = request.getParameter("normal");
 		
+		 String [] check = request.getParameterValues("normal");
+		 System.out.println(check[0]);
 			/*
 			 * System.out.println(high_press); System.out.println(ear_preg);
 			 * System.out.println(mid_preg); System.out.println(normal);
 			 */
+		
 		if(high_press!=null) {
 			response.sendRedirect("research2_hp.jsp");
 		}

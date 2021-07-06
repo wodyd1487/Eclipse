@@ -85,7 +85,7 @@ li{
 													<li><input type="checkbox" id="mid_preg" name="mid_preg" >
 													<label for="mid_preg">임신 12주 이상인 경우</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="normal" >
+													<li><input type="checkbox" id="normal" name="normal" value="normal" >
 													<label for="normal">위 내용에 해당없음</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>

@@ -64,7 +64,7 @@ li{
 								
 									<hr/>
 									
-									<form method="post" action="result">
+									<form method="post" action="http://localhost:9000/test2">
 											
 											
 												<div class="col-6 col-12-small">
@@ -72,22 +72,22 @@ li{
 													
 													<h4>불편하시거나 걱정되는 항목 두가지를 선택하세요</h4>
 													<br>
-													<li><input type="checkbox" id="high_press" name="1_1" >
+													<li><input type="checkbox" id="high_press" name="2" value="1" >
 													<label for="high_press">상처가 생기면 잘 아물지 않아요. 	</label></li>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name="1_2" >
+													<li><input type="checkbox" id="ear_preg" name="2"  value="2">
 													<label for="ear_preg">손끝 또는 발끝이 자주 저려요.	</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name="1_3" >
+													<li><input type="checkbox" id="mid_preg" name="2"  value="3">
 													<label for="mid_preg">충치가 생기고 잇몸이 자주 붓고 피가 나요.</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="2_1" >
+													<li><input type="checkbox" id="normal" name="2"  value="1">
 													<label for="normal">변비가 있어요.</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="2_2" >
+													<li><input type="checkbox" id="normal" name="2"  value="2">
 													<label for="normal">복통이나 속쓰림이 자주 발생해요<./label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="2_3" >
+													<li><input type="checkbox" id="normal" name="2"  value="3">
 													<label for="normal">설사와 같은 묽은 변을 자주 보는 편이에요.</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
