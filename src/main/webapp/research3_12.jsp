@@ -72,13 +72,13 @@ li{
 													
 													<h4>불편하시거나 걱정되는 항목 두가지를 선택하세요</h4>
 													<br>
-													<li><input type="checkbox" id="high_press" name="1" value="1" >
+													<li><input type="checkbox" id="high_press" name="1" >
 													<label for="high_press">상처가 생기면 잘 아물지 않아요. 	</label></li>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name="1"  value="2">
+													<li><input type="checkbox" id="ear_preg" name="2" >
 													<label for="ear_preg">손끝 또는 발끝이 자주 저려요.	</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name="1"  value="3">
+													<li><input type="checkbox" id="mid_preg" name="3" >
 													<label for="mid_preg">충치가 생기고 잇몸이 자주 붓고 피가 나요.</label></li>
 													<br>
 													<li><input type="checkbox" id="normal" name="2"  value="1">

@@ -74,19 +74,19 @@ li{
 													
 													<h4>불편하시거나 걱정되는 항목 두가지를 선택하세요</h4>
 													<br>
-													<li><input type="checkbox" id="high_press" name="1" value= 1>
+													<li><input type="checkbox" id="high_press" name=1 >
 													<label for="high_press">혈액순환 	</label></li>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name="1" value= 2>
+													<li><input type="checkbox" id="ear_preg" name=2 >
 													<label for="ear_preg">소화/장	</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name=1 value= 3>
+													<li><input type="checkbox" id="mid_preg" name=3 >
 													<label for="mid_preg">피부</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="1" value= 4>
+													<li><input type="checkbox" id="normal" name="4">
 													<label for="normal">눈</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="1" value= 5>
+													<li><input type="checkbox" id="normal" name="5">
 													<label for="normal">피로감</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
