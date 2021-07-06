@@ -40,11 +40,8 @@ p {
 		<!-- Header -->
 		<header id="header" class="alt">
 			<h1>
-<<<<<<< HEAD
-				<a href="index.jsp">HEALTY PLUS</a>
-=======
+
 				<a href="index.jsp">HEALTH PLUS</a>
->>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/teacherhot.git
 			</h1>
 			<nav id="nav">
 				<ul>
@@ -53,7 +50,7 @@ p {
 							<ul>
 								<li><a href="index.jsp">Home</a></li>
 								<li><a href="generic.jsp">Company</a></li>
-<<<<<<< HEAD
+
 								<li><a href="q&n.jsp">Q&A</a></li>
 								<%if(member != null){ %>
                                   <% if(member.getId().equals("admin")) { %>
@@ -65,12 +62,7 @@ p {
                                      <%} %>
                                     <%}else{%>
                                     <li><a href="login.jsp">Login</a></li>
-                                    <% }%>   
-=======
-								<li><a href="elements.jsp">Q&A</a></li>
-								<li><a href="#">Sign Up</a></li> 
-								<li><a href="#">Log In</a></li>
->>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/teacherhot.git
+                                    <% }%>
 							</ul>
 						</div></li>
 				</ul>
