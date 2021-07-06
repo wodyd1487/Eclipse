@@ -1,11 +1,17 @@
+<%@page import="model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
+	<%MemberDTO member = (MemberDTO)session.getAttribute("member"); 
+
+/* MessageDAO dao = new MessageDAO();
+ArrayList<MessageDTO> list = new ArrayList<MessageDTO>();
+      
+if(member != null){
+   list = dao.showMessage(member.getEmail());
+} */ %>
+	
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 <head>
 <title>Spectral by HTML5 UP</title>
@@ -34,18 +40,27 @@ p {
 		<!-- Header -->
 		<header id="header" class="alt">
 			<h1>
-				<a href="index.html">HEALTY PLUS</a>
+				<a href="index.jsp">HEALTY PLUS</a>
 			</h1>
 			<nav id="nav">
 				<ul>
 					<li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
 						<div id="menu">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Company</a></li>
-								<li><a href="elements.html">Q&A</a></li>
-								<li><a href="#">Sign Up</a></li> 
-								<li><a href="#">Log In</a></li>
+								<li><a href="index.jsp">Home</a></li>
+								<li><a href="generic.jsp">Company</a></li>
+								<li><a href="q&n.jsp">Q&A</a></li>
+								<%if(member != null){ %>
+                                  <% if(member.getId().equals("admin")) { %>
+                                     <li><a href="#">회원관리</a></li>
+                                     
+                                     <% }else{ %>
+                                     <li><a href="#">개인정보수정</a></li>
+                                     <li><a href="logout.jsp">로그아웃</a></li>
+                                     <%} %>
+                                    <%}else{%>
+                                    <li><a href="login.jsp">Login</a></li>
+                                    <% }%>   
 							</ul>
 						</div></li>
 				</ul>

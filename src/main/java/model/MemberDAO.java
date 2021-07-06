@@ -70,10 +70,17 @@ import java.sql.SQLException;
 
 			// next() : 다음 행으로 넘어가서 데이터 존재 여부 판단(true/false)
 			if (rs.next()) { // select한 데이터가 있다면
-				String getNick = rs.getString(4);
-
-				member = new MemberDTO(null, null, null, getNick, 0, null, null, null);
-
+				String getId = rs.getString(1);
+	            String getPw = rs.getString(2);
+	            String getName = rs.getString(3);
+	            String getNick = rs.getString(4);
+	            int getAge = rs.getInt(5);
+	            String getGender = rs.getString(6);
+	            String getTel = rs.getString(7);
+	            String getBirth = rs.getString(8);
+	            
+	            member = new MemberDTO(getId, getPw, getName, 
+	                  getNick, getAge, getGender, getTel, getBirth);
 			}
 		} catch (SQLException e) {
 			// DB관련 오류 발생시 실행되는 catch문
@@ -114,4 +121,39 @@ import java.sql.SQLException;
 
 		return cnt;
 	}
+	public boolean idCheck(String id) {
+
+	      boolean check = false;
+
+	      try {
+
+	         connection();
+
+	         // 쿼리 실행
+	         String sql = "select * from member where id=?";
+
+	         psmt = conn.prepareStatement(sql);
+	         psmt.setString(1, id);
+
+	         // ☆☆☆☆☆
+	         // insert, update, delete : executeUpdate() --> DB에 내용을 변경할 때
+	         // select : executeQuery() --> DB에 내용을 검색할 때
+	         // cnt : 0 이면 실패 0 이상이면 성공
+	         rs = psmt.executeQuery();
+
+	         // next() : 다음 행으로 넘어가서 데이터 존재 여부 판단(true/false)
+	         if (rs.next()) { // select한 데이터가 있다면
+	            check = true;
+	         } else {
+	            check = false;
+	         }
+	      } catch (SQLException e) {
+	         // DB관련 오류 발생시 실행되는 catch문
+	         e.printStackTrace();
+	      } finally {
+	         close();
+	      } // end
+
+	      return check;
+	   }
 }
