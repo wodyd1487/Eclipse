@@ -85,7 +85,7 @@ li{
 													<label for="normal">변비가 있어요.</label></li>
 													<br>
 													<li><input type="checkbox" id="normal" name="2_2" >
-													<label for="normal">복통이나 속쓰림이 자주 발생해요<./label></li>
+													<label for="normal">복통이나 속쓰림이 자주 발생해요</label></li>
 													<br>
 													<li><input type="checkbox" id="normal" name="2_3" >
 													<label for="normal">설사와 같은 묽은 변을 자주 보는 편이에요.</label></li>
