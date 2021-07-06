@@ -42,7 +42,7 @@ h4{
       <!-- Header -->
       <header id="header">
          <h1>
-            <a href="index.jsp">Spectral</a>
+            <a href="index.jsp">HEALTHPLUS</a>
          </h1>
          <nav id="nav">
             <ul>
@@ -50,8 +50,8 @@ h4{
                   <div id="menu">
                      <ul>
                         <li><a href="index.jsp">Home</a></li>
-                        <li><a href="generic.jsp">Generic</a></li>
-                        <li><a href="q&n.jsp">Elements</a></li>
+                        <li><a href="generic.jsp">Company</a></li>
+                        <li><a href="q&n.jsp">Q&A</a></li>
                         <%if(member != null){ %>
                                   <% if(member.getId().equals("admin")) { %>
                                      <li><a href="#">회원관리</a></li>

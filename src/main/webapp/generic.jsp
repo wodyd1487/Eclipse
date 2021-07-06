@@ -56,7 +56,7 @@ background-image: url('jy.jpg');
 							<ul>
 								<li><a href="index.jsp">Home</a></li>
 
-								<li><a href="generic.jsp">Generic</a></li>
+								<li><a href="generic.jsp">Company</a></li>
 								<li><a href="q&n.jsp">q&a</a></li>
 								<%if(member != null){ %>
                                   <% if(member.getId().equals("admin")) { %>
