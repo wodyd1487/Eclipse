@@ -45,7 +45,11 @@ background-image: url('jy.jpg');
 		<!-- Header -->
 		<header id="header" >
 			<h1>
+<<<<<<< HEAD
 				<a href="index.jsp">Spectral</a>
+=======
+				<a href="index.jsp">HEALTH PLUS</a>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/teacherhot.git
 			</h1>
 			<nav id="nav">
 				<ul>
@@ -53,6 +57,7 @@ background-image: url('jy.jpg');
 						<div id="menu">
 							<ul>
 								<li><a href="index.jsp">Home</a></li>
+<<<<<<< HEAD
 								<li><a href="generic.jsp">Generic</a></li>
 								<li><a href="q&n.jsp">q&a</a></li>
 								<%if(member != null){ %>
@@ -64,6 +69,12 @@ background-image: url('jy.jpg');
                                     <%}else{%>
                                     <li><a href="login.jsp">Login</a></li>
                                     <% }%>   
+=======
+								<li><a href="generic.jsp">Company</a></li>
+								<li><a href="elements.jsp">Q&A</a></li>
+								<li><a href="#">Sign Up</a></li> 
+								<li><a href="#">Log In</a></li>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/teacherhot.git
 							</ul>
 						</div></li>
 				</ul>
