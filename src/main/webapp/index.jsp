@@ -14,7 +14,7 @@ if(member != null){
 
 <html>
 <head>
-<title>Spectral by HTML5 UP</title>
+<title>HEALTH PLUS</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -78,7 +78,7 @@ p {
 					영양소를 추천해드립니다.
 				</p>
 				<ul class="actions special">
-					<li><a href="#" class="button primary">시작하기</a></li>
+					<li><a href="research1.jsp" class="button primary">시작하기</a></li>
 				</ul>
 			</div>
 			<a href="#one" class="more scrolly">Learn More</a>
