@@ -55,8 +55,6 @@
 </div>
 <%} %>
 
-<h1><%=newtri1 %></h1>
-<h1><%=newtri2 %></h1>
 </body>
 </html>
 

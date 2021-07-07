@@ -52,7 +52,7 @@ li{
 
 				<!-- Main -->
 					<article id="main">
-						<header>
+						<header style="background-color: beige;">
 							<h2>Elements</h2>
 							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
 						</header>
