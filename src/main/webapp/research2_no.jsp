@@ -74,23 +74,29 @@ li{
 													
 													<h4>불편하시거나 걱정되는 항목 두가지를 선택하세요</h4>
 													<br>
-													<li><input type="checkbox" id="high_press" name=1 >
-													<label for="high_press">혈액순환 	</label></li>
+													<li><input type="checkbox" id="1" name=1 >
+													<label for="1">혈액순환 	</label></li>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name=2 >
-													<label for="ear_preg">소화/장	</label></li>
+													<li><input type="checkbox" id="2" name=2 >
+													<label for="2">소화/장	</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name=3 >
-													<label for="mid_preg">피부</label></li>
+													<li><input type="checkbox" id="3" name=3 >
+													<label for="3">피부</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="4">
-													<label for="normal">눈</label></li>
+													<li><input type="checkbox" id="4" name="4">
+													<label for="4">눈</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="5">
-													<label for="normal">피로감</label></li>
+													<li><input type="checkbox" id="5" name="5">
+													<label for="5">피로감</label></li>
+													<br>
+													<li><input type="checkbox" id="6" name="6">
+													<label for="6">뼈와 관절</label></li>
+													<br>
+													<li><input type="checkbox" id="7" name="7">
+													<label for="7">모발</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
-													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="결과확인" class="primary" /></li>
+													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="증상 선택하기" class="primary" /></li>
 													
 													</form>
 												</ul>

@@ -64,31 +64,36 @@ li{
 								
 									<hr/>
 									
-									<form method="post" action="researchNext">
+									<form method="post" action="http://localhost:9000/test2">
 											
 											
 												<div class="col-6 col-12-small">
 												<ul class="1actions">
 													
-													<h4>불편하시거나 걱정되는 항목 두가지를 선택하세요</h4>
+													<h4>1. 혈액 순환 관련 불편한 점을 한개 선택하세요.</h4>
 													<br>
-													<li><input type="checkbox" id="high_press" name="high_press" >
-													<label for="high_press">혈액순환 	</label></li>
+													<li><input type="checkbox" id="1" name="1" >
+													<label for="1">상처가 생기면 잘 아물지 않아요. 	</label></li>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name="ear_preg" >
-													<label for="ear_preg">소화/장	</label></li>
+													<!-- <li><input type="checkbox" id="2" name="2" >
+													<label for="2">손끝 또는 발끝이 자주 저려요.	</label></li>
+													<br> -->
+													<li><input type="checkbox" id="3" name="3" >
+													<label for="3">충치가 생기고 잇몸이 자주 붓고 피가 나요.</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name="mid_preg" >
-													<label for="mid_preg">피부</label></li>
+													<h4>2. 피로감 관련 불편한 점을 한개 선택하세요.</h4>
 													<br>
-													<li><input type="checkbox" id="normal" name="normal" >
-													<label for="normal">눈</label></li>
+													<li><input type="checkbox" id="4" name="13" >
+													<label for="4">요즘 식욕이 없어요.</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="normal" >
-													<label for="normal">피로감</label></li>
+													<!-- <li><input type="checkbox" id="5" name="14">
+													<label for="5">많이 자도 항상 몸이 찌뿌둥해요.</label></li>
+													<br> -->
+													<li><input type="checkbox" id="6" name="15" >
+													<label for="6">잠에 제대로 들지 못하며 불면증에 시달려요.</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
-													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="다음 페이지" class="primary" /></li>
+													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="결과 보기" class="primary" /></li>
 													
 													</form>
 												</ul>

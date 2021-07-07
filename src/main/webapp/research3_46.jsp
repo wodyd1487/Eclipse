@@ -60,36 +60,40 @@ li{
 							<div class="inner">
 
 								<section>
-									<h4>설문 조사를 시작할게요</h4>
+									<h4>두번째 페이지에요</h4>
 								
 									<hr/>
 									
-									<form method="post" action="researchNext">
+									<form method="post" action="http://localhost:9000/test2">
 											
 											
 												<div class="col-6 col-12-small">
 												<ul class="1actions">
-													<h4>이름을 뭐라고 부르면 좋을까요?<h4>
+													
+													<h4>1. 눈 관련 불편한 점을 한개 선택하세요.</h4>
 													<br>
-													<li style="width:300px;"><input type="text" name="nickname" id="demo-name" value="" placeholder="닉네임" ></li>
+													<li><input type="checkbox" id="1" name="10" >
+													<label for="1">눈이 건조하고 뻑뻑하며 가려움을 느껴요.	</label></li>
 													<br>
+													<li><input type="checkbox" id="2" name="11" >
+													<label for="2">눈커풀이 계속 떨려요.	</label></li>
 													<br>
-													<h4>해당 사항이 있다면 선택해 주세요</h4>
+													<li><input type="checkbox" id="3" name="12" >
+													<label for="3">낮에는 이상 없는데 저녁에 잘 안보이는것 같아요.</label></li>
 													<br>
-													<li><input type="checkbox" id="high_press" name="high_press" value="1" >
-													<label for="high_press">고혈압 환자이거나(혈압약 복용하거나) 당뇨병 환자인 경우	</label></li>
+													<h4>2. 뼈와 관절 관련 불편한 점을 한개 선택하세요.</h4>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name="ear_preg" value="2">
-													<label for="ear_preg">임신 예정 혹은 가능성이 있거나 임신초기(12주 이하) 인 경우</label></li>
+													<li><input type="checkbox" id="4" name="16" >
+													<label for="4">다른 사람에 비해 뼈가 잘 부러져요.</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name="mid_preg" value="3">
-													<label for="mid_preg">임신 12주 이상인 경우</label></li>
+													<li><input type="checkbox" id="5" name="17">
+													<label for="5">다른 사람에 비해 뼈가 약하다 생각해요.</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="normal" value="4" >
-													<label for="normal">위 내용에 해당없음</label></li>
+													<li><input type="checkbox" id="6" name="18" >
+													<label for="6">자꾸만 관절이 쑤셔요.</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
-													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="다음 페이지" class="primary" /></li>
+													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="결과 보기" class="primary" /></li>
 													
 													</form>
 												</ul>
