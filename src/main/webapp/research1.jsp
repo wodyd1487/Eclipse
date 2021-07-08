@@ -11,6 +11,39 @@
 li{
    list-style:none;
    }
+   
+ .header{
+    display: flex;
+    font-family: S-CoreDream-4Regular;
+    width: 100%;
+    height: 10vh;
+    background-color:beige;
+}
+.logo{
+    display: flex;
+    flex-direction: start;
+    width: 15%;
+    height: 60%;
+    margin: 2vh;
+}
+section.wrapper.style5 {
+    background-color: beige;
+    color: black;
+}
+.footer{
+/* padding-bottom: 10px;
+padding-top: 20px; */
+background-color: green;
+display: flex;
+align-items: center;
+height: 20px;
+
+
+
+
+
+;
+}
 </style>
 
 	<head>
@@ -23,12 +56,14 @@ li{
 	<body class="is-preload">
 
 		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+			
 
 				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.jsp">Spectral</a></h1>
-						<nav id="nav">
+				<div class="header">
+    				<div class="logo"><img src="assets/css/img3/logo.png"></div>
+   				 	</div>
+					
+						<!-- <nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
@@ -47,17 +82,15 @@ li{
 									</div>
 								</li>
 							</ul>
-						</nav>
+						</nav> -->
 					</header>
 
 				<!-- Main -->
 					<article id="main">
-						<header style="background-color: beige;">
-							<h2>Elements</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
-						</header>
-						<section class="wrapper style5">
-							<div class="inner">
+
+						<section style="background-color: beige" class="wrapper style5"
+						padding-bottom: 0px;>
+							<div class="inner" style="background-color: beige">
 
 								<section>
 									<h4>설문 조사를 시작할게요</h4>
@@ -90,7 +123,7 @@ li{
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
 													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="다음 페이지" class="primary" /></li>
-													
+													</section>
 													</form>
 												</ul>
 												
@@ -99,6 +132,15 @@ li{
 											</div>
 
 									</form>
+						
 
 	</body>
+<!-- 	<footer>
+	<div class="footer">
+	
+	<a class = "r" target="_blank"></a>
+	
+	</div>
+	</footer> -->
+
 </html>
