@@ -30,11 +30,43 @@ if(member != null){
 
 	<!-- 로고 -->
 	<div class="header">
-		<div class="logo">
-			<img src="img/logo.png">
-		</div>
-	</div>
+	<div class="logo"><img src="img/logo.png"></div>
+	
 
+	<%if(member == null){ %>
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style="  " href="login.jsp">로그인</a>
+    </div>
+    <div style="position: relative; left: 650px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    <%}else{ %>
+    <!-- 로그인됨  -->
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 650px; top: 50px;">
+    <a style="  " href="mypage.jsp">마이페이지</a>
+    </div>
+    <div style="position: relative; left: 700px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    <%} %>
+    
+    </div>
+    
 	<!-- Page Wrapper -->
 	<!--genericBanner -->
 	<div id="genericbanner">

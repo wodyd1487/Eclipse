@@ -1,5 +1,11 @@
+
+<%@page import="java.util.ArrayList"%>
+<%@page import="model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<% MemberDTO member = (MemberDTO)session.getAttribute("member"); 
+
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,35 +18,38 @@
 <body>
     <div class="header">
     <div class="logo"><img src="assets/css/img3/logo.png"></div>
- <!--로그인 안됨-->   
+ 	
+ 	<%if(member == null){ %>
     <div style="position: relative; left: 500px; top: 50px;">
-    <a style="  " href="#">회사소개</a>
+    <a style="  " href="generic.jsp">회사소개</a>
     </div>
     <div style="position: relative; left: 550px; top: 50px;">
-    <a style="  " href="#">고객센터</a>
+    <a style="  " href="q&n.jsp">고객센터</a>
     </div>
     <div style="position: relative; left: 600px; top: 50px;">
-    <a style="  " href="#">로그인</a>
+    <a style="  " href="login.jsp">로그인</a>
     </div>
     <div style="position: relative; left: 650px; top: 50px;">
-    <a style="  " href="#">테스트</a>
+    <a style="  " href="research1.jsp">테스트</a>
     </div>
+    <%}else{ %>
     <!-- 로그인됨  -->
-        <div style="position: relative; left: 500px; top: 50px;">
-    <a style="  " href="#">회사소개</a>
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
     </div>
     <div style="position: relative; left: 550px; top: 50px;">
-    <a style="  " href="#">고객센터</a>
+    <a style="  " href="q&n.jsp">고객센터</a>
     </div>
     <div style="position: relative; left: 600px; top: 50px;">
-    <a style="  " href="#">로그아웃</a>
+    <a style="  " href="logout.jsp">로그아웃</a>
     </div>
-    <div style="position: relative; left: 650; top: 50px;">
-    <a style="  " href="#">마이페이지</a>
+    <div style="position: relative; left: 650px; top: 50px;">
+    <a style="  " href="mypage.jsp">마이페이지</a>
     </div>
-    <div style="position: relative; left: 700; top: 50px;">
-    <a style="  " href="#">테스트</a>
+    <div style="position: relative; left: 700px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
     </div>
+    <%} %>
     </div>
     
     <!-- <nav id="nav">
