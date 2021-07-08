@@ -9,7 +9,11 @@
         <link rel="stylesheet" href="assets/css/style.css">
         
         <div class="header">
+<<<<<<< HEAD
     <div class="logo"><img src="assets/css/img3/logo.png"></div>
+=======
+	<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/teacherhot.git
     </div>
     </head>
     

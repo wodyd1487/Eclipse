@@ -20,7 +20,7 @@ if(member != null){
 -->
 <html>
 <head>
-<title>Elements - Spectral by HTML5 UP</title>
+<title>HEALTH PLUS</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -38,7 +38,7 @@ h4 {
 
 	<!-- 로고 -->
 	<div class="header">
-	<div class="logo"><img src="img/logo.png"></div>
+	<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
 	
 
 	<%if(member == null){ %>
@@ -120,8 +120,8 @@ h4 {
 		<div class="contentGeneric2">
 			<br><br>
 			Q. 현재 진통제를 복용하고 있는데 비타민제와 함께 복용해도 될까요?<br>
-			<br> A. 진통제와 비타민제는 서로 큰 영향을 미치지 않습니다. 다만 몸에 부담을 덜기 위해 1시간 정도 간격을
-			두고 섭취해주시는 것이 좋아요. <br>
+			<br> A. 진통제와 비타민제는 서로 큰 영향을 미치지 않습니다.<br>
+			<br>다만 몸에 부담을 덜기 위해 1시간 정도 간격을 두고 섭취해주시는 것이 좋아요. <br>
 			<br>
 			<br> Q. 현재 다이어트약(가르시니아)을 복용하고 있는데 밀크씨슬과 함께 복용해도 될까요?<br>
 			<br> A. 두 가지 모두 간과 관련되어있는 약품이라 고민이 되셨다고 생각합니다. 같이 복용해도 간에 큰 무리가<br>
