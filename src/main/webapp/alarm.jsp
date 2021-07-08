@@ -30,7 +30,7 @@ h4{
       <!-- Header -->
       <header id="header">
          <h1>
-            <a href="index.jsp">ALARM</a>
+            <a href="index.jsp">HEALTH PLUS</a>
          </h1>
          <nav id="nav">
             <ul>
