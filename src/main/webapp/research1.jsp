@@ -14,7 +14,7 @@ li{
 </style>
 
 	<head>
-		<title>HEALTH PLUS</title>
+		<title>Elements - Spectral by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -27,7 +27,7 @@ li{
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.jsp">HEALTH PLUS</a></h1>
+						<h1><a href="index.jsp">Spectral</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -69,7 +69,7 @@ li{
 											
 												<div class="col-6 col-12-small">
 												<ul class="1actions">
-													<h4>이름이 무엇인가요?<h4>
+													<h4>이름을 뭐라고 부르면 좋을까요?<h4>
 													<br>
 													<li style="width:300px;"><input type="text" name="nickname" id="demo-name" value="" placeholder="닉네임" ></li>
 													<br>
