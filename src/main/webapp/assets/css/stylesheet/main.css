@@ -1,0 +1,524 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    width: 100%;
+    height: 100%;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------湲곕낯 媛�------------------------------------------------ */
+
+.header{
+    display: flex;
+    font-family: S-CoreDream-4Regular;
+    width: 100%;
+    height: 10vh;
+    background-color:beige;
+}
+
+.logo{
+    display: flex;
+    flex-direction: start;
+    width: 15%;
+    height: 60%;
+    margin: 2vh;
+}
+
+/* .menu{
+	float : right;
+	height: 40%;
+    width: 60%;
+    background-color:#0b6d5f;
+    
+ 
+    
+	
+}
+*/
+/* ------------------------header------------------------------------------------ */
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:beige;
+}
+
+.inner{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    width: 30%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    font-family: 'S-CoreDream-6Bold';
+    border-top: 0.2vh solid #0b6d5f;
+    border-bottom: 0.2vh solid #0b6d5f;
+    color: #0b6d5f;
+}
+.content{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 2.2vh;
+    font-family: 'S-CoreDream-5Medium';
+    color: darkgray;
+}
+
+.actions{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions>button{
+    height: 40%;
+    width: 12%;
+    background-color: #084C40;
+    color: #fff;
+    border: 0;
+    font-family: 'S-CoreDream-5Medium';
+    font-size: 2vh;
+    border-radius: 0.5vh;
+}
+
+.actions>button:hover{
+    background-color:#fff ;
+    color: #0b6d5f;
+    
+}
+/* ------------------------inner------------------------------------------------ */
+
+.inner02{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: #0b6d5f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:3vh;
+    font-family: 'S-CoreDream-6Bold';
+    border-bottom: 0.8vh solid #fab8b8;
+    color: beige;
+    height: 15%;
+}
+
+.content02{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:2vh;
+    color: beige;
+    font-family: 'S-CoreDream-5Medium';
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30%;
+}
+
+
+/* ------------------------inner02------------------------------------------------ */
+
+.inner03{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.img{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.imgcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    border: 1.5vh solid #fff;
+    color: #0b6d5f;
+}
+
+.imgcontent>h2{
+    color: #0b6d5f;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 10vh;
+}
+
+.part01{
+    width: 70%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'S-CoreDream-5Medium';
+    font-size: 2vh;
+ 
+}
+.part02{
+    width: 70%;
+    height: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'S-CoreDream-5Medium';
+    font-size: 2vh;
+    margin-left: 20vh;
+  
+
+}
+.part03{
+    width: 70%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'S-CoreDream-5Medium';
+    font-size: 2vh;
+}
+
+/* ------------------------inner03------------------------------------------------ */
+
+.inner04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: S-CoreDream-4Regular;
+    width: 100%;
+    height: 100vh;
+    background-color: #0b6d5f;
+}
+
+.contentTop{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentBootom{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btTop{
+    height: 35%;
+    width:70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btBt{
+    height: 35%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.6vh solid beige;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #fff;
+
+}
+
+.bold{
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 1.8vh;
+}
+
+.light{
+    font-family: 'S-CoreDream-4Regular';
+    font-size: 1.2vh;
+}
+
+.box:hover{
+    background-color: #fab8b8;
+    border: 0.8vh solid #fab8b8;
+
+}
+
+/* ------------------------inner04------------------------------------------------ */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    font-family: S-CoreDream-4Regular;
+    width: 100%;
+    height: 40vh;
+    background-color:beige;
+}
+
+.footerLogo{
+    margin: 5vh 3vh 5vh 5vh;
+}
+
+.text{
+    margin: 0 7vh;
+}
+
+.page{
+	 width: 100%;
+    height:80;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+        background-color:beige;
+    
+    
+}
+
+ /* *{margin: 0; padding: 0; overflow: hidden;}
+
+    button{background: transparent; border:none;}
+
+    #menu{position: absolute; width: 50px; right: 20px ;top: 20px}
+
+    #menu>span{display: block; width: 100%; height: 8px; background: #0b6d5f;
+     margin: 4px 0 ; border-radius: 10px; transition: all 0.5s;}
+
+
+
+    #menu>.on:nth-child(1) {transform: translateY(15px) rotate(225deg); 
+    transition-delay: 0.2s; }
+
+    #menu>.on:nth-child(2) {opacity: 0; transform: translateX(50px);}
+
+    #menu>.on:nth-child(3) {transform: translateY(-11px) rotate(-225deg);
+     transition-delay: 0.2s; } 
+     
+     
+      */
+      
+      
+      
+      /* Page Wrapper + Menu */
+
+#menu {
+	    font-family: 'S-CoreDream-9Black';
+	
+      -moz-transform: translateX(20em);
+      -webkit-transform: translateX(20em);
+      -ms-transform: translateX(20em);
+      transform: translateX(20em);
+      -moz-transition: -moz-transform 0.5s ease;
+      -webkit-transition: -webkit-transform 0.5s ease;
+      -ms-transition: -ms-transform 0.5s ease;
+      transition: transform 0.5s ease;
+      -webkit-overflow-scrolling: touch;
+      background: #0b6d5f;
+      color: #ffffff;
+      height: 100%;
+      max-width: 80%;
+      overflow-y: auto;
+      padding: 3em 2em;
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 20em;
+      z-index: 10002;
+   }
+
+      #menu ul {
+         list-style: none;
+         padding: 0;
+      }
+
+         #menu ul > li {
+            border-top: solid 1px rgba(0, 0, 0, 0.125);
+            margin: 0.5em 0 0 0;
+            padding: 0.5em 0 0 0;
+         }
+
+            #menu ul > li:first-child {
+               border-top: 0 !important;
+               margin-top: 0 !important;
+               padding-top: 0 !important;
+            }
+
+            #menu ul > li > a {
+               border: 0;
+               color: inherit;
+               display: block;
+               font-size: 0.8em;
+               letter-spacing: 0.225em;
+               outline: 0;
+               text-decoration: none;
+               text-transform: uppercase;
+            }
+
+               @media screen and (max-width: 736px) {
+
+                  #menu ul > li > a {
+                     line-height: 3em;
+                  }
+
+               }
+
+      #menu .close {
+         background-image: url("images/close.svg");
+         background-position: 4.85em 1em;
+         background-repeat: no-repeat;
+         border: 0;
+         cursor: pointer;
+         display: block;
+         height: 3em;
+         position: absolute;
+         right: 0;
+         top: 0;
+         vertical-align: middle;
+         width: 7em;
+      }
+	

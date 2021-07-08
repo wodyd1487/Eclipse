@@ -1,17 +1,15 @@
-<%@page import="model.MessageDTO"%>
-<%@page import="java.util.ArrayList"%>
-<%@page import="model.MessageDAO"%>
+
 <%@page import="model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
    pageEncoding="EUC-KR"%>
 <%MemberDTO member = (MemberDTO)session.getAttribute("member"); 
-MessageDAO dao = new MessageDAO();
-ArrayList<MessageDTO> list = new ArrayList<MessageDTO>();
-      
-if(member != null){
-   list = dao.showMessage(member.getId());
-} %>
 
+/* MessageDAO dao = new MessageDAO();
+ArrayList<MessageDTO> list = new ArrayList<MessageDTO>();
+		
+if(member != null){
+	list = dao.showMessage(member.getEmail());
+} */ %>
 <!DOCTYPE HTML>
 <!--
    Spectral by jsp5 UP
@@ -42,7 +40,7 @@ h4{
       <!-- Header -->
       <header id="header">
          <h1>
-            <a href="index.jsp">HEALTHPLUS</a>
+            <a href="index.jsp">Spectral</a>
          </h1>
          <nav id="nav">
             <ul>
@@ -50,17 +48,17 @@ h4{
                   <div id="menu">
                      <ul>
                         <li><a href="index.jsp">Home</a></li>
-                        <li><a href="generic.jsp">Company</a></li>
-                        <li><a href="q&n.jsp">Q&A</a></li>
-                        <%if(member != null){ %>
-                                  <% if(member.getId().equals("admin")) { %>
-                                     <li><a href="#">회원관리</a></li>
-                                     <% } %>
-                                     <li><a href="#">개인정보수정</a></li>
-                                     <li><a href="logout.jsp">로그아웃</a></li>
-                                    <%}else{%>
-                                    <li><a href="login.jsp">Login</a></li>
-                                    <% }%>   
+								<li><a href="generic.jsp">Generic</a></li>
+								<li><a href="q&n.jsp">Elements</a></li>
+								<%if(member != null){ %>
+ 											<% if(member.getId().equals("admin")) { %>
+ 												<li><a href="#">회원관리</a></li>
+ 												<% } %>
+ 												<li><a href="#">개인정보수정</a></li>
+ 												<li><a href="logout.jsp">로그아웃</a></li>
+												<%}else{%>
+												<li><a href="login.jsp">Login</a></li>
+												<% }%>	
                      </ul>
                   </div></li>
             </ul>
@@ -108,48 +106,19 @@ h4{
 
                <section>
                <br>
-               <%if(member != null){ %>
-               	<%if(member.getId().equals("admin")){ %>
-               		<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>고객 Q & A</h2>
-									</header>
-									<p></p>
-									<table>
-              							 <tr>
-                 							 <th>번호</th>
-                  							 <th>보내는 사람</th>
-                  							 <th>내용</th>
-                 						     <th>시간</th>
-                  							 <th>삭제</th>
-              							 </tr>
-              							 <% for(int i = 0; i < list.size(); i++){ %>
-              							 	 <tr>
-                 							 	<td><%=i+1 %></td>
-                  							 	<td><%=list.get(i).getSendName() %></td>
-                  							 	<td><%=list.get(i).getMessage() %></td>
-                 						     	<td><%=list.get(i).getM_date() %></td>
-                  							 	<td><a href="#">삭제</a></td>
-              								 </tr>
-              								 <%} %>
-            						</table>
-								</div>
-							</section>
-							<%}else { %>
                   <h3>Form</h3>
-                  <form method="post" action="MessageCon">
+                  <form method="post" action="#">
                      <div class="row gtr-uniform">
                         <div class="col-6 col-12-xsmall">
-                           <input type="text" name="sendName" id="demo-name" value=""
+                           <input type="text" name="demo-name" id="demo-name" value=""
                               placeholder="Name" />
                         </div>
                         <div class="col-6 col-12-xsmall">
-                           <input type="text" name="receiveId" id="demo-email" value=""
+                           <input type="email" name="demo-email" id="demo-email" value=""
                               placeholder="Email" />
                         </div>
                         <div class="col-12">
-                           <select name="category" id="demo-category">
+                           <select name="demo-category" id="demo-category">
                               <option value="">- Category -</option>
                               <option value="1">복용법</option>
                               <option value="1">부작용</option>
@@ -159,28 +128,26 @@ h4{
                         
                         </div>
                         <div class="col-6 col-12-small">
-                           <input type="radio" id="demo-copy" name="demo-copy">
+                           <input type="checkbox" id="demo-copy" name="demo-copy">
                            <label for="demo-copy">회원</label>
                         </div>
                         <div class="col-6 col-12-small">
-                           <input type="radio" id="demo-human" name="demo-human">
+                           <input type="checkbox" id="demo-human" name="demo-human">
                                <label for="demo-human">비회원</label>
                         </div>
                         <div class="col-12">
-                           <textarea name="message" id="demo-message"
+                           <textarea name="demo-message" id="demo-message"
                               placeholder="Enter your message" rows="6"></textarea>
                         </div>
                         <div class="col-12">
                            <ul class="actions">
                               <li><input type="submit" value="Send Message"
-                                 class="primary" onclick="alert('메세지를 전송했습니다.')" /></li>
+                                 class="primary" /></li>
                               <li><input type="reset" value="Reset" /></li>
                            </ul>
                         </div>
                      </div>
                   </form>
-                 	<%} %>
-               	<% }%>
                </section>
 
             </div>
