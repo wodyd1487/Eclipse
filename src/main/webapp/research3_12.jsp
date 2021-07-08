@@ -14,7 +14,7 @@ li{
 </style>
 
 	<head>
-		<title>Elements - Spectral by HTML5 UP</title>
+		<title>HEALTH PLUS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -70,25 +70,27 @@ li{
 												<div class="col-6 col-12-small">
 												<ul class="1actions">
 													
-													<h4>불편하시거나 걱정되는 항목 두가지를 선택하세요</h4>
+													<h4>1. 혈액 순환 관련 불편한 점을 한개 선택하세요.</h4>
 													<br>
-													<li><input type="checkbox" id="high_press" name="1" value="1" >
-													<label for="high_press">상처가 생기면 잘 아물지 않아요. 	</label></li>
+													<li><input type="checkbox" id="1" name="1" >
+													<label for="1">상처가 생기면 잘 아물지 않아요. 	</label></li>
 													<br>
-													<li><input type="checkbox" id="ear_preg" name="1"  value="2">
-													<label for="ear_preg">손끝 또는 발끝이 자주 저려요.	</label></li>
+													<li><input type="checkbox" id="2" name="2" >
+													<label for="2">손끝 또는 발끝이 자주 저려요.	</label></li>
 													<br>
-													<li><input type="checkbox" id="mid_preg" name="1"  value="3">
-													<label for="mid_preg">충치가 생기고 잇몸이 자주 붓고 피가 나요.</label></li>
+													<li><input type="checkbox" id="3" name="3" >
+													<label for="3">충치가 생기고 잇몸이 자주 붓고 피가 나요.</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="2"  value="1">
-													<label for="normal">변비가 있어요.</label></li>
+													<h4>2. 소화 관련 불편한 점을 한개 선택하세요.</h4>
 													<br>
-													<li><input type="checkbox" id="normal" name="2"  value="2">
-													<label for="normal">복통이나 속쓰림이 자주 발생해요.</label></li>
+													<li><input type="checkbox" id="4" name="4" >
+													<label for="4">변비가 있어요.</label></li>
 													<br>
-													<li><input type="checkbox" id="normal" name="2"  value="3">
-													<label for="normal">설사와 같은 묽은 변을 자주 보는 편이에요.</label></li>
+													<li><input type="checkbox" id="5" name="5">
+													<label for="5">복통이나 속쓰림이 자주 발생해요.</label></li>
+													<br>
+													<li><input type="checkbox" id="6" name="6" >
+													<label for="6">설사와 같은 묽은 변을 자주 보는 편이에요.</label></li>
 													<br><br>
 													<li style="display:inline-block; width: 50px"><input type="button" value="뒤로가기" onclick="history.back(-1);"></li>
 													<li style="display:inline-block; margin-left: 500px; width: 40px"><input type="submit" value="결과 보기" class="primary" /></li>
