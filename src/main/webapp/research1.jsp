@@ -1,5 +1,7 @@
+<%@page import="model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%MemberDTO member = (MemberDTO)session.getAttribute("member");%>
 <!DOCTYPE HTML>
 <!--
 	Spectral by jsp5 UP
@@ -8,6 +10,7 @@
 -->
 <html>
 <style>
+
 li{
    list-style:none;
    }
@@ -30,20 +33,7 @@ section.wrapper.style5 {
     background-color: beige;
     color: black;
 }
-.footer{
-/* padding-bottom: 10px;
-padding-top: 20px; */
-background-color: green;
-display: flex;
-align-items: center;
-height: 20px;
 
-
-
-
-
-;
-}
 </style>
 
 	<head>
@@ -53,14 +43,45 @@ height: 20px;
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-
-		<!-- Page Wrapper -->
-			
-
-				<!-- Header -->
+	<body>
 				<div class="header">
     				<div class="logo"><img src="assets/css/img3/logo.png"></div>
+    				    <%if(member == null){ %>
+    <div style="position: relative; left: 550px; top: 20px;">
+    <a style="color: black" href="generic.jsp" >회사소개</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 20px;">
+    <a style=" color: black " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 650px; top: 20px;">
+    <a style=" color: black " href="login.jsp">로그인</a>
+    </div>
+    <div style="position: relative; left: 700px; top: 20px;">
+    <a style=" color: black " href="research1.jsp">테스트</a>
+    </div>
+     <div style="position: relative; left: 750px; top: 20px;">
+    <a style=" color: black " href="research1.jsp">테스트</a>
+    </div>
+    <%}else{ %>
+    <!-- 로그인됨  -->
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style=" color: black " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style=" color: black " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style=" color: black " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 650px; top: 50px;">
+    <a style=" color: black " href="mypage.jsp">마이페이지</a>
+    </div>
+    <div style="position: relative; left: 700px; top: 50px;">
+    <a style=" color: black " href="research1.jsp">테스트</a>
+    </div>
+    
+    <%} %>
+    </div>  
    				 	</div>
 					
 						<!-- <nav id="nav">
@@ -93,6 +114,8 @@ height: 20px;
 							<div class="inner" style="background-color: beige">
 
 								<section>
+								
+								
 									<h4>설문 조사를 시작할게요</h4>
 								
 									<hr/>

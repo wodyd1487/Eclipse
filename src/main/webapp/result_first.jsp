@@ -76,18 +76,41 @@ if(member != null){
 h4{
  font-size: xx-large;
 }
+li{
+   list-style:none;
+   }
+   
+ .header{
+    display: flex;
+    font-family: S-CoreDream-4Regular;
+    width: 100%;
+    height: 10vh;
+    background-color:beige;
+}
+.logo{
+    display: flex;
+    flex-direction: start;
+    width: 15%;
+    height: 60%;
+    margin: 2vh;
+}
+section.wrapper.style5 {
+    background-color: beige;
+    color: black;
+}
+
 </style>
 <body class="is-preload">
 
    <!-- Page Wrapper -->
-   <div id="page-wrapper">
+ 
 
       <!-- Header -->
       <header id="header">
-         <h1>
-            <a href="index.jsp">Spectral</a>
-         </h1>
-         <nav id="nav">
+        <div class="header">
+    				<div class="logo"><img src="assets/css/img3/logo.png"></div>
+   				 	</div>
+         <%-- <nav id="nav">
             <ul>
                <li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
                   <div id="menu">
@@ -107,16 +130,19 @@ h4{
                      </ul>
                   </div></li>
             </ul>
-         </nav>
+         </nav> --%>
       </header>
 
       <!-- Main -->
       <article id="main">
-         <header>
-            <h2>결과지</h2>
-            <p>고객님의 부족할 것으로 예측되는 영양소에 대해 알려드립니다.</p>
+         <header style="background-color: beige;">
+            <h2><font style="color: black">결과지</font></h2>
+            <p><font style="color: black">고객님의 부족할 것으로 예측되는 영양소에 대해 알려드립니다.</font></p>
          </header>
-         <section class="wrapper style5">
+         <section style="background-color: beige" class="wrapper style5"
+						padding-bottom: 0px;>
+							<div class="inner" style="background-color: beige">
+         
             <div class="inner">
 
                <section>
