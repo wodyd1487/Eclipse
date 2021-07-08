@@ -7,12 +7,19 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="assets/css/style.css">
+        
+        <div class="header">
+    <div class="logo"><img src="assets/css/img3/logo.png"></div>
+    </div>
     </head>
+    
     <body>
+
         <div class="wrap">
             <div class="form-wrap">
                 <div class="button-wrap">
-                    <div id="btn"></div>
+                    <div id="
+                    btn"></div>
                     <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
                     <button type="button" class="togglebtn" onclick="register()">JOIN</button>
                 </div>
@@ -43,13 +50,21 @@
                 </form>
             </div>
         </div>
+        
+           
+        <div class="footer2">
+        
+        
+    
+    </div>
+        
         <script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
         <script>
             var x = document.getElementById("login");
             var y = document.getElementById("register");
@@ -69,28 +84,30 @@
             }
             
            function idCheck(){
-				var input = document.getElementById("input_id");
-				//alert(input.value);
-				$.ajax({
-					type : "post", //데이터 전송방식
-					data : {'id' : input.value},
-					url : "IdCheckCon",		  //데이터를 보낼 서버 페이지
-				 	dataType : "text",		//응답데이터 타입
-					// 요청에 성공시 실행할 함수 정의	//true	//false
-					success : function(data){
-						//alert(data);
-						document.getElementById("sp");
-						if(data=="true"){
-							sp.innerHTML = "  사용 불가능한 ID입니다."
-						}else{
-							sp.innerHTML = "  사용 가능한 ID입니다."
-						}
-					},
-					error : function(){
-						alert("요청 실패!");
-					}
-				});
+            var input = document.getElementById("input_id");
+            //alert(input.value);
+            $.ajax({
+               type : "post", //데이터 전송방식
+               data : {'id' : input.value},
+               url : "IdCheckCon",        //데이터를 보낼 서버 페이지
+                dataType : "text",      //응답데이터 타입
+               // 요청에 성공시 실행할 함수 정의   //true   //false
+               success : function(data){
+                  //alert(data);
+                  document.getElementById("sp");
+                  if(data=="true"){
+                     sp.innerHTML = "  사용 불가능한 ID입니다."
+                  }else{
+                     sp.innerHTML = "  사용 가능한 ID입니다."
+                  }
+               },
+               error : function(){
+                  alert("요청 실패!");
+               }
+            });
            }
         </script>
+     
+    
     </body>
 </html>
