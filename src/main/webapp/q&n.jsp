@@ -20,7 +20,7 @@ if(member != null){
 -->
 <html>
 <head>
-<title>Elements - Spectral by HTML5 UP</title>
+<title>HEALTH PLUS</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -38,10 +38,42 @@ h4 {
 
 	<!-- 로고 -->
 	<div class="header">
-		<div class="logo">
-			<img src="img/logo.png">
-		</div>
-	</div>
+	<div class="logo"><img src="img/logo.png"></div>
+	
+
+	<%if(member == null){ %>
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style="  " href="login.jsp">로그인</a>
+    </div>
+    <div style="position: relative; left: 650px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    <%}else{ %>
+    <!-- 로그인됨  -->
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 650px; top: 50px;">
+    <a style="  " href="mypage.jsp">마이페이지</a>
+    </div>
+    <div style="position: relative; left: 700px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    <%} %>
+    
+    </div>
 
 	<!-- Page Wrapper -->
 	<!-- Banner -->
@@ -86,6 +118,7 @@ h4 {
 		<div class = "add3">
 		<div class="subtitle2">자주 묻는 질문</div>
 		<div class="contentGeneric2">
+			<br><br>
 			Q. 현재 진통제를 복용하고 있는데 비타민제와 함께 복용해도 될까요?<br>
 			<br> A. 진통제와 비타민제는 서로 큰 영향을 미치지 않습니다. 다만 몸에 부담을 덜기 위해 1시간 정도 간격을
 			두고 섭취해주시는 것이 좋아요. <br>
@@ -144,94 +177,8 @@ h4 {
                      
                   </header>
  -->
-	<div class="innerGeneric2">
-		<br>
-		<%-- <%if(member != null){ %>
-               	<%if(member.getId().equals("admin")){ %> --%>
-		<section id="two">
-			<div class="inner">
-				<header class="major">
-					<h2>고객 Q & A</h2>
-				</header>
-				<p></p>
-				<table>
-					<tr>
-						<th>번호</th>
-						<th>보내는 사람</th>
-						<th>카테고리</th>
-						<th>내용</th>
-						<th>시간</th>
-						<th>삭제</th>
-					</tr>
-					<% for(int i = 0; i < list.size(); i++){ %>
-					<tr>
-						<td><%=i+1 %></td>
-						<td><%=list.get(i).getSendName() %></td>
-						<td><%=list.get(i).getCategory() %></td>
-						<td><%=list.get(i).getMessage() %></td>
-						<td><%=list.get(i).getM_date() %></td>
-						<td><a href="#">삭제</a></td>
-					</tr>
-					<%} %>
-				</table>
-			</div>
-		</section>
-		<%-- <%} else { %> --%>
-		<h3>Form</h3>
-		<form method="post" action="MessageCon.do">
-			<div class="row gtr-uniform">
-				<div class="col-6 col-12-xsmall">
-					<input type="text" name="sendName" id="demo-name" value=""
-						placeholder="Name" />
-				</div>
-				<div class="col-6 col-12-xsmall">
-					<input type="text" name="receiveId" id="demo-email" value=""
-						placeholder="Email" />
-				</div>
-				<div class="col-12">
-					<select name="category" id="demo-category">
-						<option value="">- Category -</option>
-						<option value="복용법">복용법</option>
-						<option value="부작용">부작용</option>
-						<option value="질병 관련">질병 관련</option>
-						<option value="기타">기타</option>
-					</select>
-
-				 </div>
-				<div class="col-6 col-12-small">
-					<input type="radio" id="demo-copy" name="demo-copy"> <label
-						for="demo-copy">회원</label>
-				</div>
-				<div class="col-6 col-12-small">
-					<input type="radio" id="demo-human" name="demo-human"> <label
-						for="demo-human">비회원</label>
-				</div> 
-				
-	
-				
-				
-				
-				
-				
-				<div class="col-12">
-					<textarea name="message" id="demo-message"
-						placeholder="메세지를 입력해주세요." rows="6"></textarea>
-				</div>
-				<div class="col-12">
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" class="primary"
-							onclick="alert('메세지를 전송했습니다.')" /></li>
-						<li><input type="reset" value="Reset" /></li>
-					</ul>
-				</div>
-			</div>
-		</form>
-		<%-- <% } %> --%>
-		<div>로그인하세요</div>
-		<%-- <% } %> --%>
-	</div>
  <div class="footer">
-        <div><img   class="footerLogo" src="img/logo.png"></div>
+        <div><img   class="footerLogo" src="assets/css/img3/logo.png"></div>
         <div class="text">Copyright ⓒ Health Plus (주)선생님 더워요</div>
     </div>
 	<!-- Footer -->
