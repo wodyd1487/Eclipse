@@ -9,7 +9,7 @@
 <html>
 <head>
 <title>HEALTH PLUS</title>
-<meta charset="utf-8" />
+<meta charset="EUC-KR" />
 <meta name="viewport"
    content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
@@ -96,9 +96,9 @@ h4{
                         </div>
                         <div class="col-12">
                            <ul class="actions">
-                              <li><input type="submit" value="Submit"
+                              <li><input type="submit" value="확인"
                                  class="primary" /></li>
-                              <li><input type="reset" value="Reset" /></li>
+                              <li><input type="reset" value="취소" /></li>
                            </ul>
                         </div>
                      </div>
