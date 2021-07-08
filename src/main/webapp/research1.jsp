@@ -37,7 +37,7 @@ section.wrapper.style5 {
 </style>
 
 	<head>
-		<title>Elements - Spectral by HTML5 UP</title>
+		<title>HEALTH PLUS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -45,7 +45,7 @@ section.wrapper.style5 {
 	</head>
 	<body>
 				<div class="header">
-    				<div class="logo"><img src="assets/css/img3/logo.png"></div>
+    				<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
     				    <%if(member == null){ %>
     <div style="position: relative; left: 550px; top: 20px;">
     <a style="color: black" href="generic.jsp" >회사소개</a>

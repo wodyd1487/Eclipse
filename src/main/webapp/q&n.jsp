@@ -38,7 +38,7 @@ h4 {
 
 	<!-- ·Î°í -->
 	<div class="header">
-	<div class="logo"><img src="img/logo.png"></div>
+	<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
 	
 
 	<%if(member == null){ %>

@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="header">
-    <div class="logo"><img src="assets/css/img3/logo.png"></div>
+    <a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
  	
  	<%if(member == null){ %>
     <div style="position: relative; left: 500px; top: 50px;">

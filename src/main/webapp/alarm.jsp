@@ -29,9 +29,9 @@ h4{
 
       <!-- Header -->
       <header id="header">
-         <h1>
-            <a href="index.jsp">HEALTH PLUS</a>
-         </h1>
+      	<div>
+		<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
+		</div>
          <nav id="nav">
             <ul>
                <li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
