@@ -18,18 +18,21 @@ background-position:
 <body>
 
 	<script>
-	alert("임산부의 경우 설문 과정 없이 결과만 보여집니다.");
+	alert("현재까지의 설문 결과를 보여드립니다.");
 	</script>	
 
-<div style="">
-<img class="poster" src="eyupsan.JPG" height="970px">
-</div>
+
 <div style="">
 <img class="poster" src="D.JPG" height="970px" >
 </div>
 <div style="">
 <img class="poster" src="germ.JPG" height="970px" >
-
-
+</div>
+<div style="">
+<img class="poster" src="omega.JPG" height="970px" >
+</div>
+<div style="">
+<img class="poster" src="ca.JPG" height="970px" >
+</div>
 </body>
 </html>
