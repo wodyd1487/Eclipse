@@ -17,7 +17,7 @@ if(member != null){
 -->
 <html>
 <head>
-<title>Generic - Spectral by HTML5 UP</title>
+<title>HEALTH PLUS - COMPANY</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -30,7 +30,7 @@ if(member != null){
 
 	<!-- ·Î°í -->
 	<div class="header">
-	<div class="logo"><img src="img/logo.png"></div>
+    <a href="index.jsp" class="logo"><img src="assets/css/img3/logo.png"></a>
 	
 
 	<%if(member == null){ %>
