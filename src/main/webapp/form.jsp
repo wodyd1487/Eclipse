@@ -20,7 +20,7 @@ if(member != null){
 -->
 <html>
 	<head>
-		<title>Elements - Spectral by HTML5 UP</title>
+		<title>HEALTH PLUS - FORM</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -45,12 +45,11 @@ if(member != null){
 	</style>
 	
 	<body class="is-preload">
-	<!-- 로고 -->
+		<!-- 로고 -->
 	<div class="header">
-		<div class="logo">
-			<img src="assets/css/img3/logo.png">
-		</div>
+		<a href="index.jsp" class="logo"><img src="assets/css/img3/logo.png"></a>
 	</div>
+
 		<!-- Page Wrapper -->
 			
 
@@ -58,7 +57,7 @@ if(member != null){
 				<!-- Main -->
 					<article id="main">
 						
-						<section class="wrapper style5">
+						<section class="wrapper style5" style="background-color: beige;">
 							<div class="inner">
 								
 								

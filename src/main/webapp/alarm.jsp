@@ -1,5 +1,7 @@
+<%@page import="model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
    pageEncoding="EUC-KR"%>
+   <%MemberDTO member = (MemberDTO)session.getAttribute("member"); %>
 <!DOCTYPE HTML>
 <!--
    Spectral by jsp5 UP
@@ -21,41 +23,82 @@
 h4{
  font-size: xx-large;
 }
+.header{
+    display: flex;
+    font-family: S-CoreDream-4Regular;
+    width: 100%;
+    height: 10vh;
+    background-color:beige;
+}
+
+.logo{
+    display: flex;
+    flex-direction: start;
+    width: 15%;
+    height: 60%;
+    margin: 2vh;
+}
+
+a {
+	color : black;
+}
+
 </style>
 <body class="is-preload">
 
-   <!-- Page Wrapper -->
-   <div id="page-wrapper">
+<!-- Page Wrapper -->
 
-      <!-- Header -->
-      <header id="header">
-      	<div>
-		<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
-		</div>
-         <nav id="nav">
-            <ul>
-               <li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
-                  <div id="menu">
-                     <ul>
-                        <li><a href="index.jsp">Home</a></li>
-                        <li><a href="generic.jsp">Company</a></li>
-                        <li><a href="q&n.jsp">Q&A</a></li>
-                        <li><a href="login.jsp">Sign Up</a></li>
-                        <li><a href="#">Log In</a></li>
-                     </ul>
-                  </div></li>
-            </ul>
-         </nav>
-      </header>
+
+		<!-- 로고 -->
+	<div class="header">
+		<a href="index.jsp" class="logo"><img src="assets/css/img3/logo.png"></a>
+<%if(member == null){ %>
+    <div style="position: relative; left: 425px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 475px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 525px; top: 50px;">
+    <a style="  " href="login.jsp">로그인</a>
+    </div>
+     <div style="position: relative; left: 575px; top: 50px;">
+    <a style="  " href="research1.jsp">회원가입</a>
+    </div>
+    
+    <%}else{ %>
+    <!-- 로그인됨  -->
+    <div style="position: relative; left: 400px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 450px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style="  " href="mypage.jsp">마이페이지</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    <%} %>
+    </div>
+
+
+   
+
+
+      
 
       <!-- Main -->
-      <article id="main">
+      <article id="main" style="background-color: #0b6d5f;">
          <header>
             <h2>복용시간 알리미</h2>
             <p>영양제의 특징에 따라서 복용시간을 알려드릴게요 :)</p>
-           
-         </header>
-         <section class="wrapper style5">
+       </header>
+         <section class="wrapper style5" style="background-color: beige;">
             <div class="inner">
                <section>
                <br>

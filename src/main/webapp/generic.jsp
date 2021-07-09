@@ -132,7 +132,7 @@ if(member != null){
 	<!-- Footer -->
 	<div class="footer">
 		<div>
-			<img class="footerLogo" src="img/logo.png">
+			<img class="footerLogo" src="assets/css/img3/logo.png">
 		</div>
 		<div class="text">Copyright ⓒ Health Plus (주)선생님 더워요</div>
 

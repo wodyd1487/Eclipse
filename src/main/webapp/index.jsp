@@ -19,38 +19,40 @@
     <div class="header">
     <a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
  	
- 	<%if(member == null){ %>
-    <div style="position: relative; left: 500px; top: 50px;">
+<%if(member == null){ %>
+    <div style="position: relative; left: 425px; top: 50px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 550px; top: 50px;">
+    <div style="position: relative; left: 475px; top: 50px;">
     <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 600px; top: 50px;">
+    <div style="position: relative; left: 525px; top: 50px;">
     <a style="  " href="login.jsp">로그인</a>
     </div>
-    <div style="position: relative; left: 650px; top: 50px;">
-    <a style="  " href="research1.jsp">테스트</a>
+     <div style="position: relative; left: 575px; top: 50px;">
+    <a style="  " href="join.jsp">회원가입</a>
     </div>
+    
     <%}else{ %>
     <!-- 로그인됨  -->
-    <div style="position: relative; left: 500px; top: 50px;">
+    <div style="position: relative; left: 400px; top: 50px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 550px; top: 50px;">
+    <div style="position: relative; left: 450px; top: 50px;">
     <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 600px; top: 50px;">
+    <div style="position: relative; left: 500px; top: 50px;">
     <a style="  " href="logout.jsp">로그아웃</a>
     </div>
-    <div style="position: relative; left: 650px; top: 50px;">
+    <div style="position: relative; left: 550px; top: 50px;">
     <a style="  " href="mypage.jsp">마이페이지</a>
     </div>
-    <div style="position: relative; left: 700px; top: 50px;">
+    <div style="position: relative; left: 600px; top: 50px;">
     <a style="  " href="research1.jsp">테스트</a>
     </div>
     <%} %>
     </div>
+
   
     <!-- <nav id="nav">
             <ul>
@@ -85,7 +87,7 @@
                 <div>여러 문항의 설문을 통해 몸의 부족한 영양소를 추천해드립니다.</div>
                 </div>
 				<div class="actions">
-					<button><a href="#" class="button primary">시작하기</a></button>
+					<button><a href="research1.jsp" class="button primary">시작하기</a></button>
                 </div>
 			</div>
 		</div>

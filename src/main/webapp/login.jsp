@@ -5,14 +5,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Login</title>
         <link rel="stylesheet" href="assets/css/style.css">
         
         <div class="header">
 
 
-	<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
 
+	<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
 
 
 
@@ -26,7 +26,7 @@
                 <div class="button-wrap">
                     <div id="
                     btn"></div>
-                    <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
+                    <button type="button" class="togglebtn" onclick="login()">　　　　　　LOG IN</button>
                     <button type="button" class="togglebtn" onclick="register()">JOIN</button>
                 </div>
                 <div class="social-icons">
