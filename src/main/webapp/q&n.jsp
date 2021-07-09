@@ -79,7 +79,7 @@ h4 {
 	<!-- Banner -->
 	<div id="qnabanner">
 		<div class="innerGeneric">
-			<div class="titleGeneric">Q&A</div>
+			<div class="titleGeneric" style="border-width:medium;">Q&A</div>
 			<div class="content">영양제에 관련된 문의사항에 대하여 빠른 시간 내에 답해드립니다.</div>
 			<div class="content">
 			영양제를 섭취하면서 생기는 궁금증들이 많을 것이라 생각해요.<br>

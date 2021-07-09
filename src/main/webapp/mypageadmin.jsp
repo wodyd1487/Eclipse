@@ -67,11 +67,29 @@ bottom : 150px;
     <a style="  " href="login.jsp">로그인</a>
     </div>
      <div style="position: relative; left: 575px; top: 40px;">
-    <a style="  " href="join.jsp">회원가입</a>
+    <a style="  " href="login.jsp">회원가입</a>
     </div>
     
-    <%}else{ %>
+    <%}else if(member.getId().equals("admin")){ %>
+    <!-- 어드민 -->
+    <div style="position: relative; left: 400px; top: 40px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 450px; top: 40px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 500px; top: 40px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 40px;">
+    <a style="  " href="mypageadmin.jsp">관리페이지</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 40px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    
     <!-- 로그인됨  -->
+    <%}else{ %>
     <div style="position: relative; left: 400px; top: 40px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
@@ -89,30 +107,29 @@ bottom : 150px;
     </div>
     <%} %>
     </div>
-
    <!-- Page Wrapper -->
 
 
       <!-- Main -->
 <article id="main" style="background-color: #0b6d5f;">
                   <header>
-                     <h2>MY PAGE</h2>
+                     <h2>ADMIN</h2>
                   </header>
                   <section class="wrapper style5" style="background-color: beige;">
                      <div class="inner">
                <section>
             <div>
                   <ul class="actions">
-                     <li ><a href="update.jsp" class="button large"style="width: 600px; height:300px; text-align: center;"><br> 회원정보 수정　</a></li>
+                     <li ><a href="member.jsp" class="button large"style="width: 600px; height:300px; text-align: center;"><br> 회원관리　</a></li>
                      
-                     <li><a href="alarm.jsp" class="button large" style="width: 600px; height:300px; text-align: center;"><br>복용시간 알림설정</a></li>
+                     <li><a href="admin.jsp" class="button large" style="width: 600px; height:300px; text-align: center;"><br>고객 Q&A</a></li>
                   </ul>
 
                   </ul>
                   <ul class="actions">
-                     <li><a href="seeagain.jsp" class="button large"style="width: 600px; height:300px; text-align: center;"><br>설문결과 다시보기</a></li>
+                     <li><a href="#" class="button large"style="width: 600px; height:300px; text-align: center;"><br>회원등급정보</a></li>
                   
-                     <li><a href="myqna.jsp" class="button large"style="width: 600px; height:300px; text-align: center;"><br>나의 Q&A</a></li>
+                     <li><a href="#" class="button large"style="width: 600px; height:300px; text-align: center;"><br>사이트관리</a></li>
                   </ul>
                </div>
 </section>

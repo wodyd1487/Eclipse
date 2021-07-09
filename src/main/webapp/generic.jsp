@@ -71,7 +71,7 @@ if(member != null){
 	<!--genericBanner -->
 	<div id="genericbanner">
 		<div class="innerGeneric">
-			<div class="titleGeneric">무료로 부족한 영양소를 채워보세요</div>
+			<div class="titleGeneric" style="border-width:medium;">무료로 부족한 영양소를 채워보세요</div>
 			<div class="content">여러 문항의 설문을 통해 몸의 부족한 영양소를 추천해드립니다.</div>
 		</div>
 	</div>

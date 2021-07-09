@@ -35,6 +35,20 @@ section.wrapper.style5 {
     color: black;
 }
 
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div a {
+font-family: 'S-CoreDream-5Medium';
+color : black;
+font-size : 75%;
+bottom : 150px;
+}
+
 </style>
 
 	<head>
@@ -48,41 +62,38 @@ section.wrapper.style5 {
 				<div class="header">
     				<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
     				    <%if(member == null){ %>
-    <div style="position: relative; left: 550px; top: 20px;">
-    <a style="color: black ; text-decoration: none ;" href="generic.jsp" >회사소개</a>
+    <div style="position: relative; left: 425px; top: 40px;">
+    <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 600px; top: 20px;">
-    <a style=" color: black " href="q&n.jsp">고객센터</a>
+    <div style="position: relative; left: 475px; top: 40px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 650px; top: 20px;">
-    <a style=" color: black " href="login.jsp">로그인</a>
+    <div style="position: relative; left: 525px; top: 40px;">
+    <a style="  " href="login.jsp">로그인</a>
     </div>
-    <div style="position: relative; left: 700px; top: 20px;">
-    <a style=" color: black " href="research1.jsp">테스트</a>
-    </div>
-    <%}else{ %>
-    <!-- 로그인됨  -->
-    <div style="position: relative; left: 500px; top: 50px;">
-    <a style=" color: black ;" href="generic.jsp">회사소개</a>
-    </div>
-    <div style="position: relative; left: 550px; top: 50px;">
-    <a style=" color: black " href="q&n.jsp">고객센터</a>
-    </div>
-    <div style="position: relative; left: 600px; top: 50px;">
-    <a style=" color: black " href="logout.jsp">로그아웃</a>
-    </div>
-    <div style="position: relative; left: 650px; top: 50px;">
-    <a style=" color: black " href="mypage.jsp">마이페이지</a>
-    </div>
-    <div style="position: relative; left: 700px; top: 50px;">
-    <a style=" color: black " href="research1.jsp">테스트</a>
+     <div style="position: relative; left: 575px; top: 40px;">
+    <a style="  " href="join.jsp">회원가입</a>
     </div>
     
+    <%}else{ %>
+    <!-- 로그인됨  -->
+    <div style="position: relative; left: 400px; top: 40px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 450px; top: 40px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 500px; top: 40px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 40px;">
+    <a style="  " href="mypage.jsp">마이페이지</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 40px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
     <%} %>
-    </div>  
-   				 	</div>
-
-					</header>
+    </div>
 
 				<!-- Main -->
 					<article id="main">
@@ -94,7 +105,7 @@ section.wrapper.style5 {
 								<section>
 								
 								
-									<h4>설문 조사를 시작할게요</h4>
+									<h4>당신의 건강에 플러스가 되는 부족한 영양소 분석을 시작할게요 :)</h4>
 								
 									<hr/>
 									
@@ -103,12 +114,12 @@ section.wrapper.style5 {
 											
 												<div class="col-6 col-12-small">
 												<ul class="1actions">
-													<h4>이름을 뭐라고 부르면 좋을까요?<h4>
+													<h4>Health Plus가 회원님을 어떻게 부르면 좋을까요?<h4>
 													<br>
 													<li style="width:300px;"><input type="text" name="nickname" id="demo-name" value="" placeholder="닉네임" ></li>
 													<br>
 													<br>
-													<h4>해당 사항이 있다면 선택해 주세요</h4>
+													<h4>해당 사항이 있다면 선택해 주세요.</h4>
 													<br>
 													<li><input type="checkbox" id="high_press" name="high_press" value="1" >
 													<label for="high_press">고혈압 환자이거나(혈압약 복용하거나) 당뇨병 환자인 경우	</label></li>

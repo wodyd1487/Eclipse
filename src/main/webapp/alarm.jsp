@@ -39,10 +39,19 @@ h4{
     margin: 2vh;
 }
 
-a {
-	color : black;
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+div a {
+font-family: 'S-CoreDream-5Medium';
+color : black;
+font-size : 75%;
+bottom : 150px;
+}
 </style>
 <body class="is-preload">
 
@@ -53,34 +62,34 @@ a {
 	<div class="header">
 		<a href="index.jsp" class="logo"><img src="assets/css/img3/logo.png"></a>
 <%if(member == null){ %>
-    <div style="position: relative; left: 425px; top: 50px;">
+    <div style="position: relative; left: 425px; top: 40px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 475px; top: 50px;">
+    <div style="position: relative; left: 475px; top: 40px;">
     <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 525px; top: 50px;">
+    <div style="position: relative; left: 525px; top: 40px;">
     <a style="  " href="login.jsp">로그인</a>
     </div>
-     <div style="position: relative; left: 575px; top: 50px;">
-    <a style="  " href="research1.jsp">회원가입</a>
+     <div style="position: relative; left: 575px; top: 40px;">
+    <a style="  " href="join.jsp">회원가입</a>
     </div>
     
     <%}else{ %>
     <!-- 로그인됨  -->
-    <div style="position: relative; left: 400px; top: 50px;">
+    <div style="position: relative; left: 400px; top: 40px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
-    <div style="position: relative; left: 450px; top: 50px;">
+    <div style="position: relative; left: 450px; top: 40px;">
     <a style="  " href="q&n.jsp">고객센터</a>
     </div>
-    <div style="position: relative; left: 500px; top: 50px;">
+    <div style="position: relative; left: 500px; top: 40px;">
     <a style="  " href="logout.jsp">로그아웃</a>
     </div>
-    <div style="position: relative; left: 550px; top: 50px;">
+    <div style="position: relative; left: 550px; top: 40px;">
     <a style="  " href="mypage.jsp">마이페이지</a>
     </div>
-    <div style="position: relative; left: 600px; top: 50px;">
+    <div style="position: relative; left: 600px; top: 40px;">
     <a style="  " href="research1.jsp">테스트</a>
     </div>
     <%} %>
