@@ -11,6 +11,7 @@
 <html>
 <style>
 
+
 li{
    list-style:none;
    }
@@ -40,7 +41,7 @@ section.wrapper.style5 {
 		<title>HEALTH PLUS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main1.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body>
@@ -48,7 +49,7 @@ section.wrapper.style5 {
     				<a class="logo" href="index.jsp"><img src="assets/css/img3/logo.png"></a>
     				    <%if(member == null){ %>
     <div style="position: relative; left: 550px; top: 20px;">
-    <a style="color: black" href="generic.jsp" >회사소개</a>
+    <a style="color: black ; text-decoration: none ;" href="generic.jsp" >회사소개</a>
     </div>
     <div style="position: relative; left: 600px; top: 20px;">
     <a style=" color: black " href="q&n.jsp">고객센터</a>
@@ -59,13 +60,10 @@ section.wrapper.style5 {
     <div style="position: relative; left: 700px; top: 20px;">
     <a style=" color: black " href="research1.jsp">테스트</a>
     </div>
-     <div style="position: relative; left: 750px; top: 20px;">
-    <a style=" color: black " href="research1.jsp">테스트</a>
-    </div>
     <%}else{ %>
     <!-- 로그인됨  -->
     <div style="position: relative; left: 500px; top: 50px;">
-    <a style=" color: black " href="generic.jsp">회사소개</a>
+    <a style=" color: black ;" href="generic.jsp">회사소개</a>
     </div>
     <div style="position: relative; left: 550px; top: 50px;">
     <a style=" color: black " href="q&n.jsp">고객센터</a>
@@ -83,27 +81,7 @@ section.wrapper.style5 {
     <%} %>
     </div>  
    				 	</div>
-					
-						<!-- <nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.jsp">Home</a></li>
-											<li><a href="generic.jsp">Generic</a></li>
-											<li><a href="elements.jsp">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">테스트 시작</a></li>
-											<li><a href="generic.jsp">Generic</a></li>
-											<li><a href="elements.jsp">Elements</a></li>
-											<li><a href="login.jsp">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav> -->
+
 					</header>
 
 				<!-- Main -->
