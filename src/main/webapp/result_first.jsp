@@ -162,13 +162,13 @@ section.wrapper.style5 {
                   <h4>첫번째. 이런 영양소가 부족할 것으로 예측되요</h4>	
                   
                   <p>
-                     <li>첫번째 섭취 추천 영양소는 <%= pre1 %> 입니다.</li>
+                     <li>첫번째 섭취 추천 영양소는 <strong><%= pre1 %></strong> 입니다.</li>
                   </p>
                   <hr />
                   <br>
                   <h4>두번째. 이런 영양소가 부족할 것으로 예측되요</h4>	
                   <p>
-                     <li>두번째 섭취 추천 영양소는 <%= pre2 %> 입니다.</li>
+                     <li>두번째 섭취 추천 영양소는 <strong><%= pre2 %></strong>	 입니다.</li>
                   </p>
                   
                   <form method="post" action="resultCon">
@@ -177,12 +177,12 @@ section.wrapper.style5 {
 												<div class="col-6 col-12-small">
 												<ul class="1actions">
 												<hr/>
-													<p>자세히 볼 영양소를 선택하세요.</p>
-													<li style="display:inline-block";><input type="checkbox" id="high_press" name="pre1" value=<%= pre1 %> checked="checked">
+													<p></p>
+													<li style="display:inline-block ;display: none;" ><input type="checkbox" id="high_press" name="pre1" value=<%= pre1 %> checked="checked">
 													<label for="high_press"><%= pre1 %> </label></li>
-													<li style="display:inline-block";><input type="checkbox" id="ear_preg" name="pre2" value=<%= pre2 %> checked="checked" >
+													<li style="display:inline-block;display: none;"><input type="checkbox" id="ear_preg" name="pre2" value=<%= pre2 %> checked="checked" >
 													<label for="ear_preg"><%= pre2 %></label></li>
-													<li style="display:inline-block; margin-left: 300px; width: 40px"><input type="submit" value="자세히 보기" class="primary" /></li>
+													<li style="display:inline-block; margin-left: 350px; width: 40px"><input type="submit" value="자세히 보기" class="primary" /></li>
 													
 													</form>
 												</ul>
