@@ -52,7 +52,7 @@
                     <input type="text" class="input-field" name="tel" placeholder="Tel" required>
                     <input type="text" class="input-field" name="birth" placeholder="Birthday" required>
          
-                    <button class="submit">Join</button>
+                    <button class="submit" onclick='location.href="index.jsp"'>Join</button>
                 </form>
             </div>
         </div>

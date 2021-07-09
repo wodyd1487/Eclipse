@@ -35,7 +35,7 @@ public class JoinCon extends HttpServlet {
 			request.setAttribute("id", id);
 
 			// forward ¹æ½Ä
-			RequestDispatcher dispatcher = request.getRequestDispatcher("join_success.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
 			dispatcher.forward(request, response);
 			// response.sendRedirect("join_success.jsp");
 		} else {

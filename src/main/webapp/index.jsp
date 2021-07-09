@@ -30,11 +30,29 @@
     <a style="  " href="login.jsp">로그인</a>
     </div>
      <div style="position: relative; left: 575px; top: 50px;">
-    <a style="  " href="join.jsp">회원가입</a>
+    <a style="  " href="login.jsp">회원가입</a>
     </div>
     
-    <%}else{ %>
+    <%}else if(member.getId().equals("admin")){ %>
+    <!-- 어드민 -->
+    <div style="position: relative; left: 400px; top: 50px;">
+    <a style="  " href="generic.jsp">회사소개</a>
+    </div>
+    <div style="position: relative; left: 450px; top: 50px;">
+    <a style="  " href="q&n.jsp">고객센터</a>
+    </div>
+    <div style="position: relative; left: 500px; top: 50px;">
+    <a style="  " href="logout.jsp">로그아웃</a>
+    </div>
+    <div style="position: relative; left: 550px; top: 50px;">
+    <a style="  " href="mypageadmin.jsp">관리페이지</a>
+    </div>
+    <div style="position: relative; left: 600px; top: 50px;">
+    <a style="  " href="research1.jsp">테스트</a>
+    </div>
+    
     <!-- 로그인됨  -->
+    <%}else{ %>
     <div style="position: relative; left: 400px; top: 50px;">
     <a style="  " href="generic.jsp">회사소개</a>
     </div>
@@ -80,7 +98,7 @@
           <!-- Banner -->
 		<div id="banner">
 			<div class="inner">
-				<div class="title">HEALTH PLUS</div>
+				<div class="title" style="border-width:medium;">HEALTH PLUS</div>
 				<div class="content">
                 <div>건강에 건강을 더하다.</div>
                 <div>무료로 부족한 영양소를 채워보세요.</div>
