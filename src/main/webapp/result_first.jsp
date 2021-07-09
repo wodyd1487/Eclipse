@@ -178,11 +178,7 @@ section.wrapper.style5 {
 												<ul class="1actions">
 												<hr/>
 													<p></p>
-													<li style="display:inline-block ;display: none;" ><input type="checkbox" id="high_press" name="pre1" value=<%= pre1 %> checked="checked">
-													<label for="high_press"><%= pre1 %> </label></li>
-													<li style="display:inline-block;display: none;"><input type="checkbox" id="ear_preg" name="pre2" value=<%= pre2 %> checked="checked" >
-													<label for="ear_preg"><%= pre2 %></label></li>
-													<li style="display:inline-block; margin-left: 350px; width: 40px"><input type="submit" value="자세히 보기" class="primary" /></li>
+													<li style="display:inline-block ;lush: 40px"><input type="submit" value="자세히 보기" class="primary" /></li>
 													
 													</form>
 												</ul>
